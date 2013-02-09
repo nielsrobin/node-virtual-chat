@@ -1,0 +1,110 @@
+﻿body
+{
+	background: #ccc;
+}
+
+#board-container
+{
+	width: 800px;
+	height: 576px;
+	
+	margin: 40px auto;	
+	position: relative;
+}
+
+#board {
+	background: #000;
+}
+
+.shadowed {
+	-moz-box-shadow: 0 0 20px #333;
+	-webkit-box-shadow: 0 0 20px #333;
+	box-shadow: 0 0 20px #333;	
+}
+
+.rounded {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 0;
+}
+
+.light-rounded {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 0;
+}
+
+#chatbox input
+{
+	background: #000;
+	display: block;
+	width: 760px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	
+	display: none;
+}
+
+#chat
+{
+	position: absolute;
+	bottom: 98px;
+	left: 10px;
+	max-width: 300px;
+}
+#chat p {
+	margin: 0 0 5px 0;
+	color: rgba(255,255,255,.6);
+	background: rgba(255,255,255,.3);
+	padding: 5px 10px;
+}
+
+#createPlayer
+{
+	width: 320px;
+	padding: 40px 40px 30px 40px;
+	background: white;
+	
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -50px;
+}
+
+#ipad-controls
+{
+	position: absolute;
+	z-index: 42;
+	bottom: 10px;
+	left: 10px;
+}
+
+#ipad-up
+{
+	position: absolute;
+	left: 40px;
+	bottom: 60px;
+}
+
+#ipad-left
+{
+	position: absolute;
+	left: 0px;
+	bottom: 30px;
+}
+
+#ipad-right
+{
+	position: absolute;
+	left: 80px;
+	bottom: 30px;
+}
+
+#ipad-down
+{
+	position: absolute;
+	left: 40px;
+	bottom: 0px;
+}
